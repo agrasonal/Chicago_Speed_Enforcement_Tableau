@@ -18,44 +18,48 @@ We initiated a story to provide a seamless flow to the observations and underlyi
 ### Story Point-1: No. Of Violations Over The Years
 In order to study the variation in number of violations over the years, we filtered the data as per safety zone categories - 'Parks' & 'Schools'. Then, we studied the variation for each camera location and also for each category over the years separately. We did that in the following way:
 
-**Camera-Zonewise-Distribution:**
+**Camera-Zonewise-Distribution**
 Data Source: (https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4/data), (https://www.chicago.gov/content/dam/city/depts/cdot/Red%20Light%20Cameras/2018/Chicago_Active_Camera_Schedule_090518.pdf)
-Chart Type: Heat Map, which divided the camera locations between two categories - 'Parks' & 'Schools'.
+Chart Type: Heat Map, which divided the camera locations between two categories - 'Parks' & 'Schools'. Since camera locations were almost equal, the size of the boxes were also almost equal and hence, was used for a better presentation on the story.
 Title: A brief title (font size of '11' and 'bold') for the graph was added to introduce the purpose of the graph to the reader. 
 Marks:
-- Color: Distinct count of cameras for each category, where Orange - 'Parks' & Blue - 'Schools'.
-- Size: Distinct count of cameras for each category, with both boxes of equal size since distribution of cameras in each category was almost equal.
-- Label: Zone category was added as a label in order to signify each category. Also, distinct count of cameras for each box was used as a label to indicate the number of cameras each category. These labels were customized to a font size of '11', bold and 'Top Center' aligned for a better presentation.
-Filter: A filter was added which will be used in the following graphs for connection and insight generation.
-Caption: It indicates an almost equal allocation of speed cameras  under each category and the data sources.
+- - Color: Distinct count of cameras for each category, where Orange - 'Parks' & Blue - 'Schools'.
+- - Size: Distinct count of cameras for each category, with both boxes of equal size since distribution of cameras in each category was almost equal.
+- - Label: Zone category was added as a label in order to signify each category. Also, distinct count of cameras for each box was used as a label to indicate the number of cameras each category. These labels were customized to a font size of '11', bold and 'Top Center' aligned for a better presentation.
+- Filter: A filter was added which will be used in the following graphs for connection and insight generation.
+- Caption: It indicates an almost equal allocation of speed cameras  under each category and the data sources.
 [](Image)
 
-**Camera-Zonewise-Violations:**
-Data Source:( https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4/data ), (https://www.chicago.gov/content/dam/city/depts/cdot/Red%20Light%20Cameras/2018/Chicago_Active_Camera_Schedule_090518.pdf)
+**Camera-Zonewise-Violations**
+- Data Source:( https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4/data ), (https://www.chicago.gov/content/dam/city/depts/cdot/Red%20Light%20Cameras/2018/Chicago_Active_Camera_Schedule_090518.pdf)
 Rows: Added the lattitude of each camera location.
-Columns: Added the longitude of each camera location.
-Title: A brief title(font size of '11' and 'bold') for the graph was added to introduce the purpose of the graph to a reader. 
-Marks:
-- Color: Safety zone category has been used to differentiate between parks(orange) and schools(blue) on the map.
-- Size: It varies as per the sum of violations at each camera location.
-- Label: Sum of violations and address for each camera location has been displayed as labels for easy understanding.
-Filter: We checked 'Use as a Filter' option and 'Apply to worksheets' on 'Camera-Zonewise-Distribution' worksheet to link it with 'Camera-Zonewise-Violations', in order to study variation in violations for each safety zone category, across different camera locations on the map.
-Caption: It indicates the difference between no. of violations recorded for each camera location. Also, it highlights a fact that the number of violations recorded are higher around parks compared to schools. It also provides links for the data sources.
+- Columns: Added the longitude of each camera location.
+- Title: A brief title(font size of '11' and 'bold') for the graph was added to introduce the purpose of the graph to a reader. 
+- Marks:
+- - Color: Safety zone category has been used to differentiate between parks(orange) and schools(blue) on the map.
+- - Size: It varies as per the sum of violations at each camera location.
+- - Label: Sum of violations and address for each camera location has been displayed as labels for easy understanding.
+- Filter: We checked 'Use as a Filter' option and 'Apply to worksheets' on 'Camera-Zonewise-Distribution' worksheet to link it with 'Camera-Zonewise-Violations', in order to study variation in violations for each safety zone category, across different camera locations on the map.
+- Caption: It indicates the difference between no. of violations recorded for each camera location. Also, it highlights a fact that the number of violations recorded are higher around parks compared to schools. It also provides links for the data sources.
 [](Image)
 
 **Violations-Parks-vs-Schools**
-Data Source: ( https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4/data ), (https://www.chicago.gov/content/dam/city/depts/cdot/Red%20Light%20Cameras/2018/Chicago_Active_Camera_Schedule_090518.pdf)
-Rows: Added sum of violations for all cameras together.
-Columns: Added the year of violations.
-Title: A brief title(font size of '11' and 'bold') for the graph was added to introduce the purpose of the graph to a reader.
-Marks:
-- Color: Category was added as color to divide the total observations into two categories, where Orange - 'Parks' & Blue - 'Schools'.
-Filter: We checked 'Use as a Filter' option and 'Apply to worksheets' on 'Camera-Zonewise-Distribution' worksheet to link it with 'Violations-Parks-vs-Schools', in order to study variation in violations for each safety zone category, over the years between 2014-2019.
-Caption: It indicates the change in the no. of violations over the years fo reach of the safety zone categories - 'Parks' & 'Schools' and links to the data sources.
+- Data Source: ( https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4/data ), (https://www.chicago.gov/content/dam/city/depts/cdot/Red%20Light%20Cameras/2018/Chicago_Active_Camera_Schedule_090518.pdf)
+- Rows: Added sum of violations for all cameras together.
+- Columns: Added the year of violations.
+- Title: A brief title(font size of '11' and 'bold') for the graph was added to introduce the purpose of the graph to a reader.
+- Marks:
+- - Color: Category was added as color to divide the total observations into two categories, where Orange - 'Parks' & Blue - 'Schools'.
+-Filter: We checked 'Use as a Filter' option and 'Apply to worksheets' on 'Camera-Zonewise-Distribution' worksheet to link it with 'Violations-Parks-vs-Schools', in order to study variation in violations for each safety zone category, over the years between 2014-2019.
+- Caption: It indicates the change in the no. of violations over the years fo reach of the safety zone categories - 'Parks' & 'Schools' and links to the data sources.
 
 We combined all these three worksheets in one dashboard - 'Snapshot-Program', and used the floating layout to fit each of these worksheets in a clean layout. Any of these worksheets can be resized by dragging the edges along right, left or at the right corner. Finally, we dragged this dashboard into the first story point for our story. We also did the following:
-Caption: Added a caption to introduce the underlying message of this dashboard.
-Observation: After studying this dashboard, we observed that with 81 cameras around 'Parks' and 82 cameras around 'Schools', speed enforcement program has been significantly effective in reducing the no. of speed violations between 2014-2019. We added this observation to our story by 'Drag to add text' feature on the left menu bar. After adding the text, we formatted it by changing it's background color and border color to make it look nicer.
+- Caption: Added a caption to introduce the underlying message of this dashboard.
+- Observation: After studying this dashboard, we observed that with 81 cameras around 'Parks' and 82 cameras around 'Schools', speed enforcement program has been significantly effective in reducing the no. of speed violations between 2014-2019. We added this observation to our story by 'Drag to add text' feature on the left menu bar. After adding the text, we formatted it by changing it's background color and border color to make it look nicer.
+
+So, since we connected 'Camera-Zonewise-Distribution' worksheet with the other two worksheets, we can click on any one of the category to see filtered data trends for both graphs.
+
+
 
 
 
