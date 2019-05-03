@@ -23,9 +23,11 @@ Data Source: (https://data.cityofchicago.org/Transportation/Speed-Camera-Violati
 Chart Type: Heat Map, which divided the camera locations between two categories - 'Parks' & 'Schools'. Since camera locations were almost equal, the size of the boxes were also almost equal and hence, was used for a better presentation on the story.
 Title: A brief title (font size of '11' and 'bold') for the graph was added to introduce the purpose of the graph to the reader. 
 Marks:
-- - Color: Distinct count of cameras for each category, where Orange - 'Parks' & Blue - 'Schools'.
-- - Size: Distinct count of cameras for each category, with both boxes of equal size since distribution of cameras in each category was almost equal.
-- - Label: Zone category was added as a label in order to signify each category. Also, distinct count of cameras for each box was used as a label to indicate the number of cameras each category. These labels were customized to a font size of '11', bold and 'Top Center' aligned for a better presentation.
+<ul>
+<li>Color: Distinct count of cameras for each category, where Orange - 'Parks' & Blue - 'Schools'.</li>
+<li>Size: Distinct count of cameras for each category, with both boxes of equal size since distribution of cameras in each category was almost equal.</li>
+<li>Label: Zone category was added as a label in order to signify each category. Also, distinct count of cameras for each box was used as a label to indicate the number of cameras each category. These labels were customized to a font size of '11', bold and 'Top Center' aligned for a better presentation.</li>
+</ul>
 - Filter: A filter was added which will be used in the following graphs for connection and insight generation.
 - Caption: It indicates an almost equal allocation of speed cameras  under each category and the data sources.
 [](Image)
@@ -36,9 +38,11 @@ Rows: Added the lattitude of each camera location.
 - Columns: Added the longitude of each camera location.
 - Title: A brief title(font size of '11' and 'bold') for the graph was added to introduce the purpose of the graph to a reader. 
 - Marks:
-- - Color: Safety zone category has been used to differentiate between parks(orange) and schools(blue) on the map.
-- - Size: It varies as per the sum of violations at each camera location.
-- - Label: Sum of violations and address for each camera location has been displayed as labels for easy understanding.
+<ul>
+<li>Color: Safety zone category has been used to differentiate between parks(orange) and schools(blue) on the map.</li>
+  <li>Size: It varies as per the sum of violations at each camera location.</li>
+<li>Label: Sum of violations and address for each camera location has been displayed as labels for easy understanding.</li>
+</ul>
 - Filter: We checked 'Use as a Filter' option and 'Apply to worksheets' on 'Camera-Zonewise-Distribution' worksheet to link it with 'Camera-Zonewise-Violations', in order to study variation in violations for each safety zone category, across different camera locations on the map.
 - Caption: It indicates the difference between no. of violations recorded for each camera location. Also, it highlights a fact that the number of violations recorded are higher around parks compared to schools. It also provides links for the data sources.
 [](Image)
@@ -49,9 +53,11 @@ Rows: Added the lattitude of each camera location.
 - Columns: Added the year of violations.
 - Title: A brief title(font size of '11' and 'bold') for the graph was added to introduce the purpose of the graph to a reader.
 - Marks:
-- - Color: Category was added as color to divide the total observations into two categories, where Orange - 'Parks' & Blue - 'Schools'.
--Filter: We checked 'Use as a Filter' option and 'Apply to worksheets' on 'Camera-Zonewise-Distribution' worksheet to link it with 'Violations-Parks-vs-Schools', in order to study variation in violations for each safety zone category, over the years between 2014-2019.
+<ul>
+  <li>Color: Category was added as color to divide the total observations into two categories, where Orange - 'Parks' & Blue - 'Schools'.</li>
+- Filter: We checked 'Use as a Filter' option and 'Apply to worksheets' on 'Camera-Zonewise-Distribution' worksheet to link it with 'Violations-Parks-vs-Schools', in order to study variation in violations for each safety zone category, over the years between 2014-2019.
 - Caption: It indicates the change in the no. of violations over the years fo reach of the safety zone categories - 'Parks' & 'Schools' and links to the data sources.
+[](Image)
 
 We combined all these three worksheets in one dashboard - 'Snapshot-Program', and used the floating layout to fit each of these worksheets in a clean layout. Any of these worksheets can be resized by dragging the edges along right, left or at the right corner. Finally, we dragged this dashboard into the first story point for our story. We also did the following:
 - Caption: Added a caption to introduce the underlying message of this dashboard.
