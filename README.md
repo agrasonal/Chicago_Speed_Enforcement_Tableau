@@ -13,24 +13,26 @@ The first cameras were installed in the year 2013 and since then it has been eff
 Therefore, to do so, we studied the speed violations data captured for these cameras and observed that there has been a significant drop in the number of violations between 2014-2019. However, to uncover deeper insights for each safey zone category and camera locations, we looked at the data from different perspectives.
 
 ## Story
-We initiated a story - Have we done enough?', to provide a seamless flow to the observations and underlying message. We divided the stody into three 'Story Points', each describing a unique aspect of the data.
-- Title: We added a title to the story - 'Is There Anything Else That We Can Do Make This Program A Success?' to integrate all the story points together.
+We initiated a story - **'Have we done enough?'**, to provide a seamless flow to the observations and underlying message. We divided the story into three 'Story Points', each describing a unique aspect of the data.
+- Title: We added a title to the story - 'Is There Anything Else That We Can Do Make This Program Even Better?' to integrate all the story points together.
 
 ### Story Point-1: No. Of Violations Over The Years
 In order to study the variation in number of violations over the years, we filtered the data as per safety zone categories - 'Parks' & 'Schools'. Then, we studied the variation for each camera location and also for each category over the years separately. We did that in the following way:
 
 **Camera-Zonewise-Distribution**
-- Data Source: (https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4/data), (https://www.chicago.gov/content/dam/city/depts/cdot/Red%20Light%20Cameras/2018/Chicago_Active_Camera_Schedule_090518.pdf)
-- Chart Type: Heat Map, which divided the camera locations between two categories - 'Parks' & 'Schools'. Since camera locations were almost equal, the size of the boxes were also almost equal and hence, was used for a better presentation on the story.
-- Title: A brief title (font size of '11' and 'bold') for the graph was added to introduce the purpose of the graph to the reader. 
-- Marks:
+Data Source: (https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4/data), (https://www.chicago.gov/content/dam/city/depts/cdot/Red%20Light%20Cameras/2018/Chicago_Active_Camera_Schedule_090518.pdf)
 <ul>
-  <li>Color: Distinct count of cameras for each category, where Orange - 'Parks' & Blue - 'Schools'.</li>
-  <li>Size: Distinct count of cameras for each category, with both boxes of equal size since distribution of cameras in each category was almost equal.</li>
-  <li>Label: Zone category was added as a label in order to signify each category. Also, distinct count of cameras for each box was used as a label to indicate the number of cameras each category. These labels were customized to a font size of '11', bold and 'Top Center' aligned for a better presentation.</li>
+  <li>Chart Type: Heat Map, which divided the camera locations between two categories - 'Parks' & 'Schools'. Since camera locations were almost equal, the size of the boxes were also almost equal and hence, was used for a better presentation on the story.</li>
+  <li>Title: A brief title (font size of '11' and 'bold') for the graph was added to introduce the purpose of the graph to the reader.</li> 
+  <li>Marks:</li>
+    <ul>
+      <li>Color: Distinct count of cameras for each category, where Orange - 'Parks' & Blue - 'Schools'.</li>
+      <li>Size: Distinct count of cameras for each category, with both boxes of equal size since distribution of cameras in each category was almost equal.</li>
+      <li>Label: Zone category was added as a label in order to signify each category. Also, distinct count of cameras for each box was used as a label to indicate the number of cameras in each category. These labels were customized to a font size of '11', 'bold' and 'Top Center' aligned for a better presentation.</li>
+    </ul>
+<li>Filter: A filter was added which will be used in the following graphs for connection and insight generation.</li>
+<li>Caption: It indicates an almost equal allocation of speed cameras  under each category and the data sources.</li>
 </ul>
-- Filter: A filter was added which will be used in the following graphs for connection and insight generation.
-- Caption: It indicates an almost equal allocation of speed cameras  under each category and the data sources.
 [](Image)
 
 **Camera-Zonewise-Violations**
