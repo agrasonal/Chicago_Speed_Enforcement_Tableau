@@ -70,7 +70,7 @@ In order to study the variation in number of violations over the years, we filte
 We combined all these three worksheets in one dashboard - 'Snapshot-Program', and used the floating layout to fit each of these worksheets in a clean layout. Any of these worksheets can be resized by dragging the edges along right, left or at the right corner.
 
 Finally, we dragged this dashboard into the first story point for our story. We also did the following:
-- Caption: Added a caption to introduce the underlying message of this dashboard.
+- Story Caption: Added a caption to introduce the underlying message of this dashboard.
 - Observation: After studying this dashboard, we observed that with 81 cameras around 'Parks' and 82 cameras around 'Schools', speed enforcement program has been significantly effective in reducing the no. of speed violations between 2014-2019. We added this observation to our story by 'Drag to add text' feature on the left menu bar. After adding the text, we formatted it by changing it's background color and border color to make it look nicer.
 
 So, since we connected 'Camera-Zonewise-Distribution' worksheet with the other two worksheets, we can click on any one of the category to see filtered data trends for both graphs.
@@ -97,7 +97,7 @@ In order to study the variation in average number of violations, we filtered the
 [](Image)
 
 We added the worksheets-'Camera-Zonewise-Distribution' and 'Avg-Monthly-Violations' to a new dashboard - 'Violations-Around-Holidays', and used the floating layout to fit each of these worksheets in a clean layout. Any of these worksheets can be resized by dragging the edges along right, left or at the right corner. Finally, we dragged this dashboard into the second story point for our story. We also did the following:
-- Caption: Added a caption to introduce the underlying message of this dashboard.
+- Story Caption: Added a caption to introduce the underlying message of this dashboard.
 - Observation: After studying this dashboard, we observed that average no. of violations peak around the holidays(New Year, Independence Day & Christmas) in case of parks compared to schools. This might be due to speed camera enforcement during holidays when children are not around, defying the key underlying guideline of the program. We added this observation to our story by 'Drag to add text' feature on the left menu bar. After adding the text, we formatted it by changing it's background color and border color to make it look nicer.
 
 So, since we the two worksheets are connected, we can click on any one of the category to see filtered data trends for each category.
@@ -122,7 +122,7 @@ In order to study the variation number of violations on each day of the week, we
 [](Image)
 
 We added the worksheet-'Weekday-Zone-Violations'to a new dashboard - 'Weekday-Variation'. This worksheet can be resized by dragging the edges along right, left or at the right corner. Finally, we dragged this dashboard into the third story point for our story. We also did the following:
-- Caption: Added a caption to introduce the underlying message of this dashboard.
+- Story Caption: Added a caption to introduce the underlying message of this dashboard.
 - Observation: After studying this dashboard, we observed that compared to schools, violations around parks increase over the weekend. This may be due to lack of awareness about the program, speed camera enforcement during these days, or confusing/ insufficient signage around parks. We added this observation to our story by 'Drag to add text' feature on the left menu bar. After adding the text, we formatted it by changing it's background color and border color to make it look nicer.
 
 ## Conclusion
