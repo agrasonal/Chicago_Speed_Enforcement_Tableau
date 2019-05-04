@@ -20,11 +20,11 @@ We initiated a story - **'Have we done enough?'**, to provide a seamless flow to
 In order to study the variation in number of violations over the years, we filtered the data as per safety zone categories - 'Parks' & 'Schools'. Then, we studied the variation for each camera location and also for each category over the years separately. We did that in the following way:
 
 **Camera-Zonewise-Distribution**
-Data Source: (https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4/data), (https://www.chicago.gov/content/dam/city/depts/cdot/Red%20Light%20Cameras/2018/Chicago_Active_Camera_Schedule_090518.pdf)
 <ul>
-  <li>Chart Type: Heat Map, which divided the camera locations between two categories - 'Parks' & 'Schools'. Since camera locations were almost equal, the size of the boxes were also almost equal and hence, was used for a better presentation on the story.</li>
-  <li>Title: A brief title (font size of '11' and 'bold') for the graph was added to introduce the purpose of the graph to the reader.</li> 
-  <li>Marks:</li>
+<li>Data Source: (https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4/data), (https://www.chicago.gov/content/dam/city/depts/cdot/Red%20Light%20Cameras/2018/Chicago_Active_Camera_Schedule_090518.pdf)</li>
+<li>Chart Type: Heat Map, which divided the camera locations between two categories - 'Parks' & 'Schools'. Since camera locations were almost equal, the size of the boxes were also almost equal and hence, was used for a better presentation on the story.</li>
+<li>Title: A brief title (font size of '11' and 'bold') was added to introduce the purpose of the graph to the reader.</li> 
+<li>Marks:</li>
     <ul>
       <li>Color: Distinct count of cameras for each category, where Orange - 'Parks' & Blue - 'Schools'.</li>
       <li>Size: Distinct count of cameras for each category, with both boxes of equal size since distribution of cameras in each category was almost equal.</li>
@@ -36,31 +36,35 @@ Data Source: (https://data.cityofchicago.org/Transportation/Speed-Camera-Violati
 [](Image)
 
 **Camera-Zonewise-Violations**
-- Data Source:( https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4/data ), (https://www.chicago.gov/content/dam/city/depts/cdot/Red%20Light%20Cameras/2018/Chicago_Active_Camera_Schedule_090518.pdf)
-- Rows: Added the lattitude of each camera location.
-- Columns: Added the longitude of each camera location.
-- Title: A brief title(font size of '11' and 'bold') for the graph was added to introduce the purpose of the graph to a reader. 
-- Marks:
 <ul>
-  <li>Color: Safety zone category has been used to differentiate between parks(orange) and schools(blue) on the map.</li>
-  <li>Size: It varies as per the sum of violations at each camera location.</li>
-  <li>Label: Sum of violations and address for each camera location has been displayed as labels for easy understanding.</li>
+<li>Data Source:( https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4/data ), (https://www.chicago.gov/content/dam/city/depts/cdot/Red%20Light%20Cameras/2018/Chicago_Active_Camera_Schedule_090518.pdf)</li>
+<li>Rows: Added the lattitude of each camera location.</li>
+<li>Columns: Added the longitude of each camera location.</li>
+<li>Title: A brief title(font size of '11' and 'bold') was added to introduce the purpose of the graph to a reader.</li>
+<li>Marks:</li>
+    <ul>
+      <li>Color: Safety zone category has been used to differentiate between parks(orange) and schools(blue) on the map.</li>
+      <li>Size: It varies as per the sum of violations at each camera location.</li>
+      <li>Label: Sum of violations and address for each camera location has been displayed as labels for easy understanding.</li>
+    </ul>
+<li>Filter: We used 'Camera-Zonewise-Distribution' as a filter by clicking on 'Use as a Filter' and 'Apply to worksheets' and selecting 'Camera-Zonewise-Distribution' worksheet to link the two worksheets, in order to study variation in violations for each safety zone category, across different camera locations on the map.</li>
+<li>Caption: It indicates the difference between no. of violations recorded for each camera location. Also, it highlights a fact that the number of violations recorded are higher around parks compared to schools. It also provides links for the data sources.</li>
 </ul>
-- Filter: We used 'Camera-Zonewise-Distribution' as a filter by clicking on 'Use as a Filter' and 'Apply to worksheets' and selecting 'Camera-Zonewise-Distribution' worksheet to link the two, in order to study variation in violations for each safety zone category, across different camera locations on the map.
-- Caption: It indicates the difference between no. of violations recorded for each camera location. Also, it highlights a fact that the number of violations recorded are higher around parks compared to schools. It also provides links for the data sources.
 [](Image)
 
 **Violations-Parks-vs-Schools**
-- Data Source: ( https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4/data ), (https://www.chicago.gov/content/dam/city/depts/cdot/Red%20Light%20Cameras/2018/Chicago_Active_Camera_Schedule_090518.pdf)
-- Rows: Added sum of violations for all cameras together.
-- Columns: Added the year of violations.
-- Title: A brief title(font size of '11' and 'bold') for the graph was added to introduce the purpose of the graph to a reader.
-- Marks:
 <ul>
-  <li>Color: Category was added as color to divide the total observations into two categories, where Orange - 'Parks' & Blue - 'Schools'.</li>
+<li>Data Source: ( https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4/data ), (https://www.chicago.gov/content/dam/city/depts/cdot/Red%20Light%20Cameras/2018/Chicago_Active_Camera_Schedule_090518.pdf)</li>
+<li>Rows: Added sum of violations for all cameras together.</li>
+<li>Columns: Added the year of violations.</li>
+<li>Title: A brief title(font size of '11' and 'bold') was added to introduce the purpose of the graph to a reader.</li>
+<li>Marks:</li>
+    <ul>
+      <li>Color: Category was added as color to divide the total observations into two categories, where Orange - 'Parks' & Blue - 'Schools'.</li>
+    </ul>
+<li>Filter: We used 'Camera-Zonewise-Distribution' as a filter by clicking on 'Use as a Filter' and 'Apply to worksheets' and selecting 'Violations-Parks-vs-Schools' worksheet to link the two, in order to study variation in violations for each safety zone category, over the years.</li>
+<li>Caption: It indicates the change in the no. of violations over the years for each of the safety zone categories - 'Parks' & 'Schools'.</li>
 </ul>
-- Filter: We used 'Camera-Zonewise-Distribution' as a filter by clicking on 'Use as a Filter' and 'Apply to worksheets' and selecting 'Violations-Parks-vs-Schools' worksheet to link the two, in order to study variation in violations for each safety zone category, over the years.
-- Caption: It indicates the change in the no. of violations over the years fo reach of the safety zone categories - 'Parks' & 'Schools' and links to the data sources.
 [](Image)
 
 We combined all these three worksheets in one dashboard - 'Snapshot-Program', and used the floating layout to fit each of these worksheets in a clean layout. Any of these worksheets can be resized by dragging the edges along right, left or at the right corner.
@@ -75,19 +79,21 @@ So, since we connected 'Camera-Zonewise-Distribution' worksheet with the other t
 In order to study the variation in average number of violations, we filtered the data as per safety zone categories - 'Parks' & 'Schools'. Then, we studied the average monthly variation for each category separately. We did that in the following way:
 
 **Avg-Monthly-Violations**
-- Data Source: (https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4/data), (https://www.chicago.gov/content/dam/city/depts/cdot/Red%20Light%20Cameras/2018/Chicago_Active_Camera_Schedule_090518.pdf)
-- Chart Type: Box Plot, which indicates the distribution of violations within different quartiles for each month over the years.It also highlights any outliers that might be present in the data.
-- Y-axis: represents the month when a violation was issued.
-- X-axis: represents the average number of violations issued.
-- Title: A brief title (font size of '11' and 'bold') for the graph was added to introduce the purpose of the graph to the reader. 
-- Marks:
 <ul>
-  <li>Color: Blue, Grey & Black, which is suitable for color-blind friendly people.</li>
-  <li>Detail: Dates were added for adding further detailing to the graph.</li>
-  <li>Label: Dates were added as labels for better understanding of the key observations.</li>
+<li>Data Source: (https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4/data), (https://www.chicago.gov/content/dam/city/depts/cdot/Red%20Light%20Cameras/2018/Chicago_Active_Camera_Schedule_090518.pdf)</li>
+<li>Chart Type: Box Plot, which indicates the distribution of violations within different quartiles for each month over the years.It also highlights any outliers that might be present in the data.</li>
+<li>Y-axis: represents the month when a violation was issued.</li>
+<li>X-axis: represents the average number of violations issued.</li>
+<li>Title: A brief title (font size of '11' and 'bold') was added to introduce the purpose of the graph to the reader.</li>
+<li>Marks:</li>
+    <ul>
+      <li>Color: Blue, Grey & Black, which is suitable for color-blind friendly people.</li>
+      <li>Detail: Dates were added for adding further detailing to the graph.</li>
+      <li>Label: Dates were added as labels for better understanding of the key observations.</li>
+    </ul>
+<li>Filter: We used 'Camera-Zonewise-Distribution' as a filter by clicking on 'Use as a Filter' and 'Apply to worksheets' and selecting 'Avg-Monthly-Violations' worksheet to link the two, in order to study average variation in violations for each safety zone category, across different months of the year.</li>
+<li>Caption: With the help of filter applied on Schools & Parks, this chart indicates the change in average number of violations across months. It indicates some peaks during holidays around parks when schools are not in session.</li>
 </ul>
-- Filter: We used 'Camera-Zonewise-Distribution' as a filter by clicking on 'Use as a Filter' and 'Apply to worksheets' and selecting 'Avg-Monthly-Violations' worksheet to link the two, in order to study average variation in violations for each safety zone category, across different months of the year.
-- Caption: With the help of filter applied on Schools & Parks, this chart indicates the change in average number of violations across months. It indicates some peaks during holidays around parks when schools are not in session.
 [](Image)
 
 We added the worksheets-'Camera-Zonewise-Distribution' and 'Avg-Monthly-Violations' to a new dashboard - 'Violations-Around-Holidays', and used the floating layout to fit each of these worksheets in a clean layout. Any of these worksheets can be resized by dragging the edges along right, left or at the right corner. Finally, we dragged this dashboard into the second story point for our story. We also did the following:
@@ -100,17 +106,19 @@ So, since we the two worksheets are connected, we can click on any one of the ca
 In order to study the variation number of violations on each day of the week, we filtered the data as per safety zone categories - 'Parks' & 'Schools'. Then, we studied the variation for each category separately. We did that in the following way:
 
 **Weekday-Zone-Violations**
-- Data Source: (Ref-https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4/data)
-(Ref-https://www.chicago.gov/content/dam/city/depts/cdot/Red%20Light%20Cameras/2018/Chicago_Active_Camera_Schedule_090518.pdf)
-- Chart Type: Discrete Line Chart, which indicates the variation in violations across the week.
-- Y-axis: represents the each day of the week when a violation was issued.
-- X-axis: represents the sum of violations issued on a particular weekday.
-- Title: A brief title (font size of '11' and 'bold') for the graph was added to introduce the purpose of the graph to the reader. 
-- Marks:
 <ul>
-  <li>Color: Category column was used as a color differentiator, where Orange - 'Parks' & Blue - 'Schools'.</li>
+<li>Data Source: (Ref-https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4/data)
+(Ref-https://www.chicago.gov/content/dam/city/depts/cdot/Red%20Light%20Cameras/2018/Chicago_Active_Camera_Schedule_090518.pdf)</li>
+<li>Chart Type: Discrete Line Chart, which indicates the variation in violations across the week.</li>
+<li>Y-axis: represents the each day of the week when a violation was issued.</li>
+<li>X-axis: represents the sum of violations issued on a particular weekday.</li>
+<li>Title: A brief title (font size of '11' and 'bold') was added to introduce the purpose of the graph to the reader. </li>
+<li>Marks:</li>
+    <ul>
+      <li>Color: Category column was used as a color differentiator, where Orange - 'Parks' & Blue - 'Schools'.</li>
+    </ul>
+<li>Caption: This chart indicates that no. of violations around parks increase over the weekend compared to rest of the week. Also, the number of violations around schools during the week are higher compared to the rest of the week.</li>
 </ul>
-- Caption: This chart indicates that no. of violations around parks increase over the weekend compared to rest of the week. Also, the number of violations around schools during the week are higher compared to the rest of the week..
 [](Image)
 
 We added the worksheet-'Weekday-Zone-Violations'to a new dashboard - 'Weekday-Variation'. This worksheet can be resized by dragging the edges along right, left or at the right corner. Finally, we dragged this dashboard into the third story point for our story. We also did the following:
@@ -120,6 +128,6 @@ We added the worksheet-'Weekday-Zone-Violations'to a new dashboard - 'Weekday-Va
 ## Conclusion
 The purpose of this story was to communicate the message that authorities need to revisit the program policies and installation locations in order to make sure that the the efforts are being directed in the right direction.
 
-With the help of three story points, we broke down our key message and integrated it in the form of a story. This way it helps to communicate only a piece of information at a time, helping the reader to absorb and understand it in a better way.
+With the help of three story points, we broke down our key message and integrated it in the form of a story. This way it helps to communicate only one piece of information at a time, helping the reader to absorb and understand it in a better way.
 
 Tableau Link for this project can be found here: 
