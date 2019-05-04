@@ -94,17 +94,30 @@ We added the worksheets-'Camera-Zonewise-Distribution' and 'Avg-Monthly-Violatio
 
 So, since we the two worksheets are connected, we can click on any one of the category to see filtered data trends for each category.
 
+### Story Point-3: Violation-Weekends-Parks vs Schools
+In order to study the variation number of violations on each day of the week, we filtered the data as per safety zone categories - 'Parks' & 'Schools'. Then, we studied the variation for each category separately. We did that in the following way:
 
+**Weekday-Zone-Violations**
+- Data Source: (Ref-https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4/data)
+(Ref-https://www.chicago.gov/content/dam/city/depts/cdot/Red%20Light%20Cameras/2018/Chicago_Active_Camera_Schedule_090518.pdf)
+- Chart Type: Discrete Line Chart, which indicates the variation in violations across the week.
+- Y-axis: represents the each day of the week when a violation was issued.
+- X-axis: represents the sum of violations issued on a particular weekday.
+- Title: A brief title (font size of '11' and 'bold') for the graph was added to introduce the purpose of the graph to the reader. 
+- Marks:
+<ul>
+  <li>Color: Category column was used as a color differentiator, where Orange - 'Parks' & Blue - 'Schools'.</li>
+</ul>
+- Caption: This chart indicates that no. of violations around parks increase over the weekend compared to rest of the week. Also, the number of violations around schools during the week are higher compared to the rest of the week..
+[](Image)
 
+We added the worksheet-'Weekday-Zone-Violations'to a new dashboard - 'Weekday-Variation'. This worksheet can be resized by dragging the edges along right, left or at the right corner. Finally, we dragged this dashboard into the third story point for our story. We also did the following:
+- Caption: Added a caption to introduce the underlying message of this dashboard.
+- Observation: After studying this dashboard, we observed that compared to schools, violations around parks increase over the weekend. This may be due to lack of awareness about the program, speed camera enforcement during these days, or confusing/ insufficient signage around parks. We added this observation to our story by 'Drag to add text' feature on the left menu bar. After adding the text, we formatted it by changing it's background color and border color to make it look nicer.
 
+## Conclusion
+The purpose of this story was to communicate the message that authorities need to revisit the program policies and installation locations in order to make sure that the the efforts are being directed in the right direction.
 
+With the help of three story points, we broke down our key message and integrated it in the form of a story. This way it helps to communicate only a piece of information at a time, helping the reader to absorb and understand it in a better way.
 
-
-
-
-
-
-
-
-
-
+Tableau Link for this project can be found here: 
