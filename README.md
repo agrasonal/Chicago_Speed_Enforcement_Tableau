@@ -13,7 +13,8 @@ The first cameras were installed in the year 2013 and since then it has been eff
 Therefore, to do so, we studied the speed violations data captured for these cameras and observed that there has been a significant drop in the number of violations between 2014-2019. However, to uncover deeper insights for each safey zone category and camera locations, we looked at the data from different perspectives.
 
 ## Story
-We initiated a story to provide a seamless flow to the observations and underlying message. We divided the stody into three 'Story Points', each describing a unique aspect of the data.
+We initiated a story - Have we done enough?', to provide a seamless flow to the observations and underlying message. We divided the stody into three 'Story Points', each describing a unique aspect of the data.
+- Title: We added a title to the story - 'Is There Anything Else That We Can Do Make This Program A Success?' to integrate all the story points together.
 
 ### Story Point-1: No. Of Violations Over The Years
 In order to study the variation in number of violations over the years, we filtered the data as per safety zone categories - 'Parks' & 'Schools'. Then, we studied the variation for each camera location and also for each category over the years separately. We did that in the following way:
@@ -34,14 +35,14 @@ In order to study the variation in number of violations over the years, we filte
 
 **Camera-Zonewise-Violations**
 - Data Source:( https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4/data ), (https://www.chicago.gov/content/dam/city/depts/cdot/Red%20Light%20Cameras/2018/Chicago_Active_Camera_Schedule_090518.pdf)
- - Rows: Added the lattitude of each camera location.
+- Rows: Added the lattitude of each camera location.
 - Columns: Added the longitude of each camera location.
 - Title: A brief title(font size of '11' and 'bold') for the graph was added to introduce the purpose of the graph to a reader. 
 - Marks:
 <ul>
   <li>Color: Safety zone category has been used to differentiate between parks(orange) and schools(blue) on the map.</li>
   <li>Size: It varies as per the sum of violations at each camera location.</li>
-<li>Label: Sum of violations and address for each camera location has been displayed as labels for easy understanding.</li>
+  <li>Label: Sum of violations and address for each camera location has been displayed as labels for easy understanding.</li>
 </ul>
 - Filter: We used 'Camera-Zonewise-Distribution' as a filter by clicking on 'Use as a Filter' and 'Apply to worksheets' and selecting 'Camera-Zonewise-Distribution' worksheet to link the two, in order to study variation in violations for each safety zone category, across different camera locations on the map.
 - Caption: It indicates the difference between no. of violations recorded for each camera location. Also, it highlights a fact that the number of violations recorded are higher around parks compared to schools. It also provides links for the data sources.
@@ -55,11 +56,14 @@ In order to study the variation in number of violations over the years, we filte
 - Marks:
 <ul>
   <li>Color: Category was added as color to divide the total observations into two categories, where Orange - 'Parks' & Blue - 'Schools'.</li>
+</ul>
 - Filter: We used 'Camera-Zonewise-Distribution' as a filter by clicking on 'Use as a Filter' and 'Apply to worksheets' and selecting 'Violations-Parks-vs-Schools' worksheet to link the two, in order to study variation in violations for each safety zone category, over the years.
 - Caption: It indicates the change in the no. of violations over the years fo reach of the safety zone categories - 'Parks' & 'Schools' and links to the data sources.
 [](Image)
 
-We combined all these three worksheets in one dashboard - 'Snapshot-Program', and used the floating layout to fit each of these worksheets in a clean layout. Any of these worksheets can be resized by dragging the edges along right, left or at the right corner. Finally, we dragged this dashboard into the first story point for our story. We also did the following:
+We combined all these three worksheets in one dashboard - 'Snapshot-Program', and used the floating layout to fit each of these worksheets in a clean layout. Any of these worksheets can be resized by dragging the edges along right, left or at the right corner.
+
+Finally, we dragged this dashboard into the first story point for our story. We also did the following:
 - Caption: Added a caption to introduce the underlying message of this dashboard.
 - Observation: After studying this dashboard, we observed that with 81 cameras around 'Parks' and 82 cameras around 'Schools', speed enforcement program has been significantly effective in reducing the no. of speed violations between 2014-2019. We added this observation to our story by 'Drag to add text' feature on the left menu bar. After adding the text, we formatted it by changing it's background color and border color to make it look nicer.
 
@@ -69,7 +73,7 @@ So, since we connected 'Camera-Zonewise-Distribution' worksheet with the other t
 In order to study the variation in average number of violations, we filtered the data as per safety zone categories - 'Parks' & 'Schools'. Then, we studied the average monthly variation for each category separately. We did that in the following way:
 
 **Avg-Monthly-Violations**
- - Data Source: (https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4/data), (https://www.chicago.gov/content/dam/city/depts/cdot/Red%20Light%20Cameras/2018/Chicago_Active_Camera_Schedule_090518.pdf)
+- Data Source: (https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4/data), (https://www.chicago.gov/content/dam/city/depts/cdot/Red%20Light%20Cameras/2018/Chicago_Active_Camera_Schedule_090518.pdf)
 - Chart Type: Box Plot, which indicates the distribution of violations within different quartiles for each month over the years.It also highlights any outliers that might be present in the data.
 - Y-axis: represents the month when a violation was issued.
 - X-axis: represents the average number of violations issued.
