@@ -18,6 +18,7 @@ We initiated a story - **'Have we done enough?'**, to provide a seamless flow to
 
 ### Story Point-1: No. Of Violations Over The Years
 In order to study the variation in number of violations over the years, we filtered the data as per safety zone categories - 'Parks' & 'Schools'. Then, we studied the variation for each camera location and also for each category over the years separately. We did that in the following way:
+![image](https://github.com/agrasonal/Data_Analysis-Chicago_Speed_Enforcement/blob/master/Images/Story_Point-1.png)
 
 **Camera-Zonewise-Distribution**
 <ul>
@@ -33,7 +34,6 @@ In order to study the variation in number of violations over the years, we filte
 <li>Filter: A filter was added which will be used in the following graphs for connection and insight generation.</li>
 <li>Caption: It indicates an almost equal allocation of speed cameras  under each category and the data sources.</li>
 </ul>
-[](Image)
 
 **Camera-Zonewise-Violations**
 <ul>
@@ -50,7 +50,6 @@ In order to study the variation in number of violations over the years, we filte
 <li>Filter: We used 'Camera-Zonewise-Distribution' as a filter by clicking on 'Use as a Filter' and 'Apply to worksheets' and selecting 'Camera-Zonewise-Distribution' worksheet to link the two worksheets, in order to study variation in violations for each safety zone category, across different camera locations on the map.</li>
 <li>Caption: It indicates the difference between no. of violations recorded for each camera location. Also, it highlights a fact that the number of violations recorded are higher around parks compared to schools. It also provides links for the data sources.</li>
 </ul>
-[](Image)
 
 **Violations-Parks-vs-Schools**
 <ul>
@@ -65,7 +64,6 @@ In order to study the variation in number of violations over the years, we filte
 <li>Filter: We used 'Camera-Zonewise-Distribution' as a filter by clicking on 'Use as a Filter' and 'Apply to worksheets' and selecting 'Violations-Parks-vs-Schools' worksheet to link the two, in order to study variation in violations for each safety zone category, over the years.</li>
 <li>Caption: It indicates the change in the no. of violations over the years for each of the safety zone categories - 'Parks' & 'Schools'.</li>
 </ul>
-[](Image)
 
 We combined all these three worksheets in one dashboard - 'Snapshot-Program', and used the floating layout to fit each of these worksheets in a clean layout. Any of these worksheets can be resized by dragging the edges along right, left or at the right corner.
 
@@ -77,6 +75,7 @@ So, since we connected 'Camera-Zonewise-Distribution' worksheet with the other t
 
 ### Story Point-2: Avg. Monthly Violations-Parks vs Schools
 In order to study the variation in average number of violations, we filtered the data as per safety zone categories - 'Parks' & 'Schools'. Then, we studied the average monthly variation for each category separately. We did that in the following way:
+![image](https://github.com/agrasonal/Data_Analysis-Chicago_Speed_Enforcement/blob/master/Images/Story_Point-2.png)
 
 **Avg-Monthly-Violations**
 <ul>
@@ -94,7 +93,6 @@ In order to study the variation in average number of violations, we filtered the
 <li>Filter: We used 'Camera-Zonewise-Distribution' as a filter by clicking on 'Use as a Filter' and 'Apply to worksheets' and selecting 'Avg-Monthly-Violations' worksheet to link the two, in order to study average variation in violations for each safety zone category, across different months of the year.</li>
 <li>Caption: With the help of filter applied on Schools & Parks, this chart indicates the change in average number of violations across months. It indicates some peaks during holidays around parks when schools are not in session.</li>
 </ul>
-[](Image)
 
 We added the worksheets-'Camera-Zonewise-Distribution' and 'Avg-Monthly-Violations' to a new dashboard - 'Violations-Around-Holidays', and used the floating layout to fit each of these worksheets in a clean layout. Any of these worksheets can be resized by dragging the edges along right, left or at the right corner. Finally, we dragged this dashboard into the second story point for our story. We also did the following:
 - Story Caption: Added a caption to introduce the underlying message of this dashboard.
@@ -104,6 +102,7 @@ So, since we the two worksheets are connected, we can click on any one of the ca
 
 ### Story Point-3: Violation-Weekends-Parks vs Schools
 In order to study the variation number of violations on each day of the week, we filtered the data as per safety zone categories - 'Parks' & 'Schools'. Then, we studied the variation for each category separately. We did that in the following way:
+![image](https://github.com/agrasonal/Data_Analysis-Chicago_Speed_Enforcement/blob/master/Images/Story_Point-3.png)
 
 **Weekday-Zone-Violations**
 <ul>
@@ -119,7 +118,6 @@ In order to study the variation number of violations on each day of the week, we
     </ul>
 <li>Caption: This chart indicates that no. of violations around parks increase over the weekend compared to rest of the week. Also, the number of violations around schools during the week are higher compared to the rest of the week.</li>
 </ul>
-[](Image)
 
 We added the worksheet-'Weekday-Zone-Violations'to a new dashboard - 'Weekday-Variation'. This worksheet can be resized by dragging the edges along right, left or at the right corner. Finally, we dragged this dashboard into the third story point for our story. We also did the following:
 - Story Caption: Added a caption to introduce the underlying message of this dashboard.
